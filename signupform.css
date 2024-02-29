@@ -1,4 +1,12 @@
 * {
-  background-color: #EEEEEE;
+  position: relative;
+}
+
+body {
+  position: relative;
+  background-image: url("images/halie-west-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+
 
 }
