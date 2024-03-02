@@ -13,39 +13,64 @@ body {
   src: url(Norse-Bold.otf);
 }
 
-.section1 {
-  position: relative;
-  background-image: url("images/halie-west-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: 40% 100%;
-  background-position: 0% 0%;
-  height: 100vh;
-  width: 100vw;
+.container {
+  border: 3px solid blue;
+  padding: 50vh;
 }
 
-.leftSide p {
-  font-family: logoFont;
-  color: white;
-  font-size: 85px;
-}
-
-img {
+.float-child {
+  width: 50%;
+  padding: 20px;
   float: left;
-  position: relative;
-  height: 100px;
-  width: 80px;
-  transform: translate(25 50);
 }
+
+.leftSide {
+  border: 3px solid red;
+}
+
+.rightSide {
+  border: 3px solid yellowgreen;
+}
+
+
+
+/* .leftSide { */
+/*   position: relative; */
+/*   background-image: url("images/halie-west-bg.jpg"); */
+/*   background-repeat: no-repeat; */
+/*   background-size: 40% 100%; */
+/*   background-position: 0% 0%; */
+/*   height: 100vh; */
+/*   width: 100vw; */
+/* } */
+
+/* .leftSide p { */
+/*   position: absolute; */
+/*   top: 200px; */
+/*   left: 50px; */
+/*   font-family: logoFont; */
+/*   color: white; */
+/*   font-size: 85px; */
+/* } */
+/**/
+/* img { */
+/*   float: left; */
+/*   position: relative; */
+/*   height: 100px; */
+/*   width: 80px; */
+/*   transform: translate(25 50); */
+/* } */
+/**/
+/* .rightSide { */
+/*   position: absolute; */
+/*   font-size: 1rem; */
+/*   text-align: left; */
+/*   color: black; */
+/* } */
+
 
 /* p, */
 /* img { */
 /*   background-color: rgba(0, 0, 0, 0.3) */
 /*     /* border: 4px solid blue; */
-*/
 /* } */
-
-.callToAction {
-  font-size: 1rem;
-  text-align: left;
-  color: black;
-}
