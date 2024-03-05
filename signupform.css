@@ -44,10 +44,16 @@ body {
 }
 
 .logoAndText {
+  translate: 0px 175px;
   height: 150px;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+
 }
 
 .logoAndText p {
+  float: right;
   font-family: logoFont;
   color: white;
   font-size: 85px;
@@ -55,11 +61,11 @@ body {
 
 .logoAndText p,
 img {
-  background-color: rgba(0, 0, 0, 0.3);
+  translate: 0px
 }
 
 img {
-  float: left;
+  vertical-align: sub;
   height: 100px;
   width: 80px;
 }
