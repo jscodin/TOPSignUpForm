@@ -1,8 +1,8 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  /* margin: 0px; */
-  /* padding: 0px; */
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -20,11 +20,14 @@ body {
 
 .column {
   flex: 50%;
-  padding: 10px;
 }
 
 .leftSide {
+  display: flex;
   flex: 1 0 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .rightSide {
@@ -36,32 +39,39 @@ body {
   background-image: url("images/halie-west-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: 0% 0%;
+  /* background-position: 0% 0%; */
   height: 100vh;
-  width: 100vw;
+}
+
+.logoAndText {
+  height: 150px;
 }
 
 .logoAndText p {
-  position: absolute;
-  top: 200px;
-  left: 50px;
   font-family: logoFont;
   color: white;
   font-size: 85px;
 }
 
-img {
-  float: left;
-  position: relative;
-  height: 100px;
-  width: 80px;
-  transform: translate(25 50);
-}
-
-p,
+.logoAndText p,
 img {
   background-color: rgba(0, 0, 0, 0.3);
-  border: 1px solid blue;
+}
+
+img {
+  float: left;
+  height: 100px;
+  width: 80px;
+}
+
+.creditLink {
+  height: 30px;
+}
+
+.creditLink,
+a {
+  font-size: 0.7rem;
+  color: white;
 }
 
 /**/
