@@ -32,7 +32,8 @@ body {
 
 .rightSide {
   display: flex;
-  flex: 1 0 0;
+  flex: 1 0 700px;
+  padding-left: 30px;
 }
 
 .leftSide {
@@ -40,19 +41,16 @@ body {
   background-image: url("images/halie-west-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* background-position: 0% 0%; */
   height: 100vh;
 }
 
 .logoAndText {
-  /* position: absolute; */
   width: 100%;
   text-align: center;
   translate: 0px 175px;
   height: 150px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 .bgForLogo p {
   font-family: logoFont;
@@ -80,10 +78,11 @@ a {
   color: white;
 }
 
-/**/
-/* .rightSide { */
-/*   position: absolute; */
-/*   font-size: 1rem; */
-/*   text-align: left; */
-/*   color: black; */
-/* } */
+.rightSide upperPara {
+  flex-direction: column;
+}
+
+.upperPara p {
+  font-weight: bold;
+  translate: 0px 140px;
+}
