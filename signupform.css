@@ -78,11 +78,27 @@ a {
   color: white;
 }
 
-.rightSide upperPara {
-  flex-direction: column;
-}
+/* .rightSide upperPara { */
+/*   flex-direction: column; */
+/* } */
 
 .upperPara p {
   font-weight: bold;
   translate: 0px 140px;
+}
+
+form {
+  /* font-size: 0.7rem; */
+  /* font-weight: bold; */
+  display: block;
+  width: 50%;
+  height: 300px;
+  /* margin: 0 auto; */
+  translate: -415px 330px;
+}
+
+label,
+input,
+button {
+  display: block;
 }
