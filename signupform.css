@@ -34,6 +34,7 @@ body {
   display: flex;
   flex: 1 0 700px;
   padding-left: 30px;
+  position: relative;
 }
 
 .leftSide {
@@ -88,17 +89,25 @@ a {
 }
 
 form {
+  position: absolute;
   /* font-size: 0.7rem; */
   /* font-weight: bold; */
   display: block;
   width: 50%;
   height: 300px;
   /* margin: 0 auto; */
-  translate: -415px 330px;
+  translate: 0px 350px;
 }
 
 label,
 input,
 button {
   display: block;
+}
+
+.formRow {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 40px;
+
 }
