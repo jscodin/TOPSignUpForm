@@ -99,10 +99,22 @@ form {
   translate: 0px 350px;
 }
 
+form h3 {
+  translate: 0px -30px;
+  font-weight: bold;
+}
+
 label,
 input,
 button {
   display: block;
+}
+
+label {
+  text-transform: capitalize;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 
 .formRow {
@@ -110,4 +122,15 @@ button {
   margin-bottom: 20px;
   margin-right: 40px;
 
+}
+
+.closingText {
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.closingText a {
+  color: #596D48;
 }
