@@ -136,10 +136,13 @@ label {
 }
 
 button {
+  appearance: none;
+  border: none;
   background-color: #596D48;
   color: white;
   font-size: 0.8rem;
   padding: 10px 40px;
   margin-bottom: 30px;
   border-radius: 8px;
+  box-shadow: 4px 4px 5px lightgray;
 }
