@@ -97,19 +97,28 @@ a {
 
 form {
   position: absolute;
+  padding-top: 30px;
+  padding-left: 30px;
   /* font-size: 0.7rem; */
   /* font-weight: bold; */
   display: block;
   width: 100%;
   height: auto;
   /* margin: 0 auto; */
-  translate: 0px 350px;
+  translate: 0px 323px;
   border: 1px solid blue;
 }
 
-form h3 {
-  translate: 0px -30px;
+legend {
+  margin-bottom: 20px;
+  font-size: 1rem;
   font-weight: bold;
+}
+
+form label {
+  /* translate: 0px -30px; */
+  font-weight: bold;
+  font-size: 0.7rem;
 }
 
 label,
