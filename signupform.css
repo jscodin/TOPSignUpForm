@@ -121,18 +121,25 @@ label {
   display: inline-block;
   margin-bottom: 20px;
   margin-right: 40px;
-
 }
 
-.closingText {
-  margin-top: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
-  font-size: 0.8rem;
+input {
+  border: 1px solid lightgray;
+  appearance: none;
+  /* padding-left: 5px; */
+  padding: 4px 10px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 5px lightgray;
 }
 
-.closingText a {
-  color: #596D48;
+/* input:valid { */
+/*   outline-color: #596D48; */
+/* } */
+
+input:focus-visible {
+  /* outline-color: #437cf0; */
+  outline: none;
+  border: 2px solid #437cf0;
 }
 
 button {
@@ -145,4 +152,15 @@ button {
   margin-bottom: 30px;
   border-radius: 8px;
   box-shadow: 4px 4px 5px lightgray;
+}
+
+.closingText {
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.closingText a {
+  color: #596D48;
 }
