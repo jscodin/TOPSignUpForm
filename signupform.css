@@ -33,7 +33,7 @@ body {
 .rightSide {
   display: flex;
   flex: 1 0 700px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   position: relative;
 }
 
@@ -86,6 +86,13 @@ a {
 .upperPara p {
   font-weight: bold;
   translate: 0px 140px;
+  padding-left: 30px;
+}
+
+.formContainer {
+  width: 600px;
+  /* height: 300px; */
+  /* border: 1px solid blue; */
 }
 
 form {
@@ -93,10 +100,11 @@ form {
   /* font-size: 0.7rem; */
   /* font-weight: bold; */
   display: block;
-  width: 600px;
+  width: 100%;
   height: auto;
   /* margin: 0 auto; */
   translate: 0px 350px;
+  border: 1px solid blue;
 }
 
 form h3 {
