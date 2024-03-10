@@ -145,15 +145,16 @@ input {
   border-radius: 4px;
 }
 
-/* input:valid { */
-/*   outline-color: #596D48; */
-/* } */
-
 input:focus-visible {
   outline: none;
   border: 2px solid #437cf0;
   box-shadow: 4px 4px 5px lightgray;
 }
+
+input:invalid {
+  border-color: red;
+}
+
 
 button {
   appearance: none;
