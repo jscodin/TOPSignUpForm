@@ -33,7 +33,6 @@ body {
 .rightSide {
   display: flex;
   flex: 1 0 700px;
-  /* padding-left: 30px; */
   position: relative;
 }
 
@@ -79,10 +78,6 @@ a {
   color: white;
 }
 
-/* .rightSide upperPara { */
-/*   flex-direction: column; */
-/* } */
-
 .upperPara p {
   font-weight: bold;
   translate: 0px 140px;
@@ -91,12 +86,9 @@ a {
 
 .formContainer {
   width: 600px;
-  /* height: 300px; */
-  /* border: 1px solid blue; */
 }
 
 .formBg {
-  /* border: 1px solid blue; */
   margin-left: -30px;
   padding-left: 30px;
   translate: 0px -30px;
@@ -110,14 +102,10 @@ form {
   position: absolute;
   padding-top: 30px;
   padding-left: 30px;
-  /* font-size: 0.7rem; */
-  /* font-weight: bold; */
   display: block;
   width: 100%;
   height: auto;
-  /* margin: 0 auto; */
   translate: 0px 323px;
-  /* border: 1px solid blue; */
 }
 
 legend {
@@ -127,7 +115,6 @@ legend {
 }
 
 form label {
-  /* translate: 0px -30px; */
   font-weight: bold;
   font-size: 0.7rem;
 }
@@ -154,10 +141,8 @@ label {
 input {
   border: 1px solid lightgray;
   appearance: none;
-  /* padding-left: 5px; */
   padding: 4px 10px;
   border-radius: 4px;
-  box-shadow: 4px 4px 5px lightgray;
 }
 
 /* input:valid { */
@@ -165,9 +150,9 @@ input {
 /* } */
 
 input:focus-visible {
-  /* outline-color: #437cf0; */
   outline: none;
   border: 2px solid #437cf0;
+  box-shadow: 4px 4px 5px lightgray;
 }
 
 button {
