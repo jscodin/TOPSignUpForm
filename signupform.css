@@ -155,6 +155,16 @@ input:invalid {
   border-color: red;
 }
 
+input+span {
+  position: relative;
+}
+
+input[name="confirmPassword"]:invalid+span:after {
+  position: absolute;
+  content: "* Passwords do not match";
+  color: red;
+  font-size: 0.5rem;
+}
 
 button {
   appearance: none;
